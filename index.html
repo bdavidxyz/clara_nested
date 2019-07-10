@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery UI Sortable With Sublists</title>
+  
+  <link rel="stylesheet" href="./vendor/normalize.min.css">
+
+  <link rel='stylesheet' href='./vendor/jquery-ui.css'>
+
+  <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+
+<body>
+
+  
+<ul class="sortable" data-type="ET">
+  <li>ET
+    <ul class="sortable" data-type="OU">
+      <li>OU
+        <ul class="sortable">Avoir au moins 18 ans</ul>
+      </li>
+      <li>OU
+        <ul class="sortable">Être titulaire de l'AAH</ul>
+      </li>
+      <li>OU
+        <ul class="sortable">Être cadre</ul>
+      </li>
+    </ul>
+  </li>
+  <li>ET
+    <ul class="sortable">habiter en Région Centre</ul>
+  </li>
+  <li>ET
+    <ul class="sortable">Être inscrit depuis plus d'un an</ul>
+  </li>
+</ul>
+  <script src='./vendor/jquery.js'></script>
+  <script src='./vendor/jqueryui.js'></script>
+  <script  src="./script.js"></script>
+
+
+
+
+</body>
+
+</html>
